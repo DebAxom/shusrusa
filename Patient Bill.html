@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	body{margin: 0px;padding: 0px;font-family:Calibri;}
+    form{width:250px;position:relative;}
+	input[type="text"],[type="date"]{position:absolute;font-size:14px;height:25px;padding-top:0px;outline:none;width:100%;padding-left:0px;left:0px;height:40px;}
+	label{position:relative;top:10px;left:0px;font-size:14px;letter-spacing:1px;transition:0.5s;margin:0px;padding:0px;float:left;}
+	input[type="text"]:focus ~ label{
+	position:relative;top:0px;left:0;font-size:12px;color:#03a9f4;
+	}
+	input[type="date"]:focus ~ label{
+	position:relative;top:0px;left:0;font-size:12px;color:#03a9f4;
+    }
+	input[type="text"]:valid ~ label{
+	position:relative;top:0px;left:0;font-size:12px;color:#03a9f4;
+	}
+	select{position:absolute;font-size:14px;height:25px;padding-top:10px;outline:none;width:100%;padding-left:0px;left:0px;height:40px;}
+	</style>
+</head>
+<body>
+<center>
+<br><br>
+<form>	
+<input type="text" name=""><label>Patient's name</label><br><br><br>
+<input type="text" name=""><label>Patient's Age</label><br><br><br>
+<input type="text" name=""><label>Patient's Gender</label><br><br><br>
+<input type="date" name=""><label>Patient's Dob</label><br><br><br>
+<select><option selected hidden></option><option>Male</option><option>Female</option><option>Transgender</option></select><label>Gender</label><br><br><br>
+<input type="submit" name="" value="Submit">
+</form>
+</center>
+</body>
+</html>
