@@ -6,7 +6,7 @@ body{background-color:white;}
 #navbar{background-color:black;color:#00ff66;position:fixed;height:45px;width:100%;top:0px;opacity:.9;overflow:hidden;}
 .navbutton{left:0px;float:left;color:white;text-decoration:none;border:solid 0.5px white;background-color:black;padding:10px;font-size:16px;height:45px;}
 #homebutton{left:0px;float:left;color:#00ff66;text-decoration:none;border:solid 0.5px #00ff66;background-color:black;padding:10px;font-size:16px;height:45px;}
-#menulist{background-color:#e2e2e2;opacity:.9;color:black;width:250px;width:100%;display:none;}
+#menulist{background-color:#e2e2e2;opacity:1;color:black;width:250px;width:100%;display:none;}
 .menuitems{margin-left: 5px;padding:5px;}
 .menuitems:hover{margin-left: 5px;padding:5px;color:#0099ff;}
 @media(max-width: 411px)
