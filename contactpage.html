@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shusrusa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+*{padding:0px;margin:0px;outline:none;font-family:Calibri;}
+#header{background-color:black;color:white;position:fixed;height:45px;width:100%;top:0px;opacity:.9;overflow:hidden;text-align:center;}
+#content{margin-top:50px;}
+#footer{width:100%;background-color:#1f1f1f;height:50px;bottom:0px;}	
+@media(max-width:411px){
+#header{background-color:black;color:white;position:fixed;height:45px;width:100%;top:0px;opacity:.9;overflow:hidden;text-align:center;font-size:14px;}
+                       }
+#contactform{width:80%;position:relative;}
+.createinput{position:absolute;font-size:14px;height:25px;padding-top:10px;outline:none;width:100%;padding-left:0px;left:0px;border:solid 0.5px black;} 
+.labelcreate{position:relative;top:0px;left:2px;font-size:12px;letter-spacing:1px;transition:0.5s;margin:0px;padding:0px;float: left;color:black;}          
+#labelphonecode{position:relative;top:5px;left:5px;font-size:16px;letter-spacing:1px;transition:0.5s;margin:0px;padding:0px;float: left;color:black;}        
+#labelphoneno{position:relative;top:0px;left:10px;font-size:12px;letter-spacing:1px;transition:0.5s;margin:0px;padding:0px;float: left;color:black;}   
+#createtextarea{position:absolute;font-size:14px;height:100px;padding-top:10px;outline:none;width:100%;padding-left:0px;left:0px;border:solid 0.5px black;}  
+#send{width: 100%;height: 30px;background-color:#0066ff;border:none;color:white;font-size:16px;float:left;} 
+#callbutton{border: none;background-color: #00ff00;color: white;width: 100%;height: 30px;font-size:16px;float:left;}
+</style>
+</head>
+<body>
+<div id="header"><h1>Shusrusa Contact Page</h1></div>
+<div id="content">
+<center>
+<br>
+<form onsubmit="return false" id="contactform" method="post">
+<a href="tel:+917002044934"><input type="button" id="callbutton" value="Call us"></a><br><br>
+<input type="email" name="emailid" class="createinput"><label class="labelcreate">Email</label><br><br><br>
+<input type="number" name="" class="createinput"><label id="labelphonecode">+91</label><label id="labelphoneno">Phone no</label><br><br><br>
+<textarea id="createtextarea"></textarea><label class="labelcreate">Any feedback/message</label><br><br><br><br><br><br><br>
+<input type="submit" name="send" value="Submit" id="send">
+</form><br><br>
+</center>
+</div>
+</body>
+</html>
